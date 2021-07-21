@@ -1,0 +1,133 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:whitesmoke;
+}
+nav {
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    align-items:center;
+}
+nav img{
+    margin-left:-2%;
+}
+nav ul{
+    list-style-type:none;
+    margin-right:10px;
+    font-family:sans-serif;
+    color:grey;
+    font-size:15px;
+}
+nav ul li img{
+    height:20px;
+    margin-right:4px;
+}
+.first-p p{
+    color:grey;
+    margin:40px 20% 30px 20%;
+    font-size:16px;
+    word-spacing:2px;
+   
+}
+.forms-section{
+    width:100%;
+    border:none;
+    margin:auto;
+    display:flex;
+    height:90vh;
+    
+}
+.forms-section .first-form, .forms-section .second-form{
+    width:400px;
+    background-color:white;
+    height:80vh;
+    border:none;
+    margin:20px auto 0px auto;
+    border-radius:10px;
+    box-shadow:0px 4px 5px 0px grey;
+}
+.first-form p:first-child, .second-form p:first-child{
+    margin-left:30px;
+    margin-top:20px;
+    font-weight:bolder;
+    font-family:sans-serif;
+}
+.first-form label, .second-form label{
+    margin-left:30px;
+    font-weight:530;
+    font-family:sans-serif;
+    font-size:14px;
+    
+    margin-top:px;
+    
+    
+}
+.first-form input,.second-form input{
+    margin-left:30px;
+    width:300px;
+    height:28px;
+    border:1px solid rgb(206, 203, 203);
+    border-radius:3px;
+    margin-bottom:35px;
+}
+ .first-form p:nth-child(2), .second-form p:nth-child(2){
+    color:grey;
+    margin-left:20px;
+}
+  button{
+    height:40px;
+    width:110px;
+    border-radius:3px;
+    border:none; 
+    margin-left:60px;  
+    margin-top:50px;   
+    
+}
+ .btn-1{
+    font-weight:300;
+    background-color:rgb(230, 227, 227);
+    box-shadow:0px 2px 2px 0px grey;
+}
+.btn-2{
+    font-weight:300;
+    color:white;
+    background-color:blue;
+    box-shadow:0px 2px 2px 0px grey;
+}
+forms label b{
+    color:red;
+    font-weight:700;
+}
+label.label1{
+    color:grey;
+    
+}
+label.label2{
+    color:grey;
+}
+.logos img{
+    margin-left:500px;
+    position:absolute;
+  
+}
+ .second-form  img{
+    margin-left:380px;
+    margin-top:-10px;
+}
+.first-form img{
+    margin-left:380px;
+    margin-top:-10px;
+}
+@media only screen and (max-width:500px){
+    .forms-section{
+        display:block;
+    }
+    .first-form input,.second-form input{
+        margin-bottom:15px;
+}
+}
+@media only screen and (min-width:501px){
+    .first-form input,.second-form input{
+        margin-bottom:15px;
+}
